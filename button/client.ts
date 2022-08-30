@@ -121,6 +121,7 @@ namespace modules {
         //% group="Button"
         //% weight=95
         onDown(handler: () => void): void {
+            console.log("BUTTON DOWN")
             this.registerEvent(jacdac.ButtonEvent.Down, handler)
         }
         /**
